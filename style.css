@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-/* html, body, div, span, applet, object, iframe,
+html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -22,9 +22,9 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-} */
+}
 /* HTML5 display-role reset for older browsers */
-/* article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -45,14 +45,14 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-} */
+}
 @font-face {
     font-family: 'raleway';
     src: url('./assets/font/raleway/Raleway-Regular.ttf');
 }
 
 * {
-    /* border: solid 1px red; */
+    border: solid 1px red;
     margin: 0;
     padding: 0;
     font-family:'raleway';
@@ -79,7 +79,7 @@ header span {
 }
 .flex {
     display: flex;
-    width: 90%;
+    width: 95%;
     margin: auto;
 }
 
@@ -87,9 +87,9 @@ header span {
 .container {
     display: flex;
     flex-wrap: wrap;
-    width: 65%;
-    margin: 0% 0%;
-    height: 100vh;
+    width: 58%;
+    margin: 2% auto;
+    
 }
 
 .title_heading {
@@ -100,7 +100,7 @@ header span {
     width: 100%;
 }
 .title_heading h1, .title_heading h2, .title_heading p, .title_heading a {
-    margin: 2% 2%;
+    margin: 5% 2%;
     line-height: 1.5rem;
 }
 .title_heading h1 {
@@ -119,7 +119,7 @@ header span {
     color: black;
     border: solid 1px black;
     padding: 1% 1%;
-    margin-right: 65%;
+    margin-right: 58%;
     font-weight: 600;
 }
 .comments {
@@ -130,7 +130,8 @@ header span {
 .comments span {
     background-color: black;
     color: white;
-    padding: 5px;
+    padding: 5px 10px;
+    margin-left: 0%;
 
 }
 
@@ -146,7 +147,7 @@ header span {
     width: 100%;
 }
 .blog_entry h1, .blog_entry h2, .blog_entry p, .blog_entry a {
-margin: 2% 2%;
+margin: 5% 2%;
 line-height: 1.5rem;
 }
 .blog_entry h1 {
@@ -162,7 +163,7 @@ line-height: 1.5rem;
     color: black;
     border: solid 1px black;
     padding: 1% 1%;
-    margin-right: 65%;
+    margin-right: 58%;
     font-weight: 600;
 }
 .blog_entry .comments span {
@@ -170,14 +171,17 @@ line-height: 1.5rem;
     color: white;
     padding: 5px 10px;
     border-radius: 100%;
+    margin-left: 10%;
 } 
 
 /* *****MY NAME***** */
 .container2 {
     display: flex;
     flex-wrap: wrap;
-    width: 30%;
-    margin: auto;
+    width: 38%;
+    margin: 2% auto;
+    
+    
 }
 
 .my_name {
@@ -229,9 +233,9 @@ line-height: 1.5rem;
 }
   
 .titre {
-    font-size: 2rem;
+    font-size: 1.5rem;
     background-color: rgb(240, 238, 238);
-    padding: 2% 2%;
+    padding: 5% 2%;
     
 }
 .popular_posts img {
@@ -243,35 +247,50 @@ line-height: 1.5rem;
 .tags {
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     margin-top: 5%;
+    /* height: 20vh; */
+   
+   
 
 }
 .tags p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     background-color: rgb(240, 238, 238);
-    padding: 2% 2%;
+    padding: 5% 2%;
 }
 .tags a {
     text-decoration: none;
+    font-size: 0.8rem;
     background-color: rgb(240, 238, 238);
     color: black;
     margin: 2% 2%;
-    padding: 2% 2%;
+    padding: 1% 3%;
+    display: inline-block;
 }
 
 
 /* *****FOOTER***** */
 footer {
-    
-    background-color: gray;
+    text-decoration: none;
+    margin-top: 2%;
+    padding: 5% 0%;
+    background-color: rgb(71, 71, 71);
     color: white;
 }
 .previous {
     background-color: rgb(94, 90, 90);
+    padding: 1.5% 3%;
+    margin: 1% 1%;
+    color: rgba(255, 255, 255, 0.37);
 }
 .next {
     background-color: black;
+    padding: 1.5% 3%;
+    margin: 1% 1%;
+    color: white;
 }
-
+footer p {
+    margin: 5% 1%;
+}
 
 
 
