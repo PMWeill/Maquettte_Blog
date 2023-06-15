@@ -1,0 +1,256 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} */
+/* HTML5 display-role reset for older browsers */
+/* article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} */
+
+* {
+    border: solid 1px red;
+    margin: 0;
+    padding: 0;
+}
+
+/* *****HEADER***** */
+
+header h1, header p {
+    text-align: center;
+    
+    
+}
+header h1 {
+    font-size: 2.5rem;
+    margin: 5% 0% 0% 0%;
+}
+header p {
+    margin: 2% 0% 5% 0%;  
+}
+header span {
+    background-color: black;
+    color: white;
+    padding: 2px;
+}
+.flex {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+/* *****TITLE HEADING***** */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    margin: 0% 0%;
+    height: 100vh;
+}
+
+.title_heading {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 100%;
+}
+.title_heading img {
+    width: 100%;
+}
+.title_heading h1, .title_heading h2, .title_heading p, .title_heading a {
+margin: 2% 2%;
+}
+.title_heading h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+.title_heading h2 {
+    font-size: 1.5rem;
+}
+.date {
+    color: gray;
+}
+.title_heading a {
+    background-color: rgb(200, 204, 207);
+    text-decoration: none;
+    color: black;
+    border: solid 1px black;
+    padding: 1% 1%;
+    margin-right: 65%;
+}
+.comments {
+    display: inline-block;
+    
+}
+.comments span {
+background-color: black;
+color: white;
+padding: 5px;
+
+}
+
+
+/* *****BLOG ENTRY***** */
+
+.blog_entry {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.blog_entry img {
+    width: 100%;
+}
+.blog_entry h1, .blog_entry h2, .blog_entry p, .blog_entry a {
+margin: 2% 2%;
+}
+.blog_entry h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+.blog_entry h2 {
+    font-size: 1.5rem;
+}
+.blog_entry a {
+    background-color: rgb(200, 204, 207);
+    text-decoration: none;
+    color: black;
+    border: solid 1px black;
+    padding: 1% 1%;
+    margin-right: 65%;
+}
+.blog_entry .comments span {
+    background-color: black;
+color: white;
+padding: 5px 10px;
+border-radius: 100%;
+} 
+
+/* *****MY NAME***** */
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    margin: auto;
+}
+
+.my_name {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.my_name img {
+    width: 100%;
+}
+.my_name h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+.my_name h1,.my_name p {
+    margin: 2% 2%;
+}
+
+
+
+/* *****POPULAR POSTS***** */
+
+.popular_posts {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.titre {
+    font-size: 2rem;
+    background-color: gray;
+}
+.popular_posts img {
+    width: 100%;
+}
+
+
+/* *****TAGS***** */
+.tags {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.tags p {
+    font-size: 2rem;
+    background-color: gray;
+}
+.tags a {
+    text-decoration: none;
+    background-color: gray;
+}
+
+
+/* *****FOOTER***** */
+footer {
+    background-color: gray;color: white;
+}
+.previous {
+    background-color: rgb(94, 90, 90);
+}
+.next {
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
