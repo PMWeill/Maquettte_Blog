@@ -1,4 +1,5 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+@media screen and (max-width: 768px ) {
+    /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -52,7 +53,7 @@ table {
 }
 
 * {
-    /* border: solid 1px red; */
+    
    
     font-family:'raleway';
 }
@@ -76,18 +77,63 @@ header span {
     color: white;
     padding: 2px;
 }
+
+
+.place_my_name {
+    position: relative;
+    height: 160px;
+}
+.my_name {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+position: absolute;
+display: flex;
+bottom: 70%;
+right: 0%;
+width: 100%;
+
+}
+.my_name img {
+    width: 100%;
+    border-radius: 10px;
+}
+.imgmyname {
+    width: 50%;
+    margin: 2% 0% 2% 2%;
+  
+}
+.my_name h1 {
+    display: none;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.my_name h1,.my_name p {
+    margin: 2% 2%;
+    line-height: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
 .flex {
     display: flex;
-    width: 95%;
-    margin: auto;
+    flex-direction: column;
+    width: 98%;
+    margin: 2% 0% 2% 2%;
 }
 
 /* *****TITLE HEADING***** */
 .container {
     display: flex;
     flex-wrap: wrap;
-    width: 58%;
-    margin: 2% auto;
+    flex-direction: column;
+    width: 100%;
+    margin: 2% 0% 2% 0%;
     
 }
 
@@ -177,27 +223,12 @@ line-height: 1.5rem;
 .container2 {
     display: flex;
     flex-wrap: wrap;
-    width: 38%;
+    width: 100%;
     margin: 2% auto;
     
     
 }
 
-.my_name {
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-
-}
-.my_name img {
-    width: 100%;
-}
-.my_name h1 {
-    font-size: 2rem;
-    font-weight: 600;
-}
-.my_name h1,.my_name p {
-    margin: 2% 2%;
-    line-height: 1.5rem;
-}
 
 
 
@@ -266,23 +297,24 @@ line-height: 1.5rem;
 .tag_noir {
     text-decoration: none;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 0.5rem;
     background-color: black;
     color: white;
-    margin: 2% auto;
+    margin: 2% 0.5%;
     padding: 1% 1%;
-    width: 15%;
+    width: 5%;
 }
 .tags_gris {
     text-decoration: none;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 0.5rem;
     background-color: rgb(240, 238, 238);
     color: black;
-    margin: 2% auto;
+    margin: 2% 0.5%;
     padding: 1% 1%;
-    width: 15%;
+    width: 5%;
 }
+
 
 
 /* *****FOOTER***** */
@@ -313,27 +345,4 @@ footer p {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
