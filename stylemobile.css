@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px ) {
+@media screen and (max-width: 576px ) {
     /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -81,28 +81,29 @@ header span {
 
 .place_my_name {
     position: relative;
-    height: 160px;
+    height: 530px;
 }
 .my_name {
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 position: absolute;
 display: flex;
-bottom: 70%;
+flex-wrap: wrap;
+bottom: 33%;
 right: 0%;
 width: 100%;
 
 }
 .my_name img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 0px;
 }
 .imgmyname {
-    width: 50%;
+    width: 100%;
     margin: 2% 0% 2% 2%;
   
 }
 .my_name h1 {
-    display: none;
+    display: block;
     font-size: 2rem;
     font-weight: 600;
 }
@@ -123,8 +124,8 @@ width: 100%;
 .flex {
     display: flex;
     flex-direction: column;
-    width: 98%;
-    margin: 2% 0% 2% 2%;
+    width: 100%;
+    margin: 2% 0% 2% 0%;
 }
 
 /* *****TITLE HEADING***** */
@@ -162,13 +163,18 @@ width: 100%;
     background-color: rgb(240, 238, 238);
     text-decoration: none;
     color: black;
-    border: solid 1px black;
+    border: solid 1px rgba(0, 0, 0, 0.13);
     padding: 1% 1%;
     margin-right: 58%;
     font-weight: 600;
+    display: block;
+    text-align: center;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    width: 95.5%;
 }
 .comments {
-    display: inline-block;
+    display: block;
+    text-align: center;
     font-weight: 600;
     
 }
@@ -206,17 +212,21 @@ line-height: 1.5rem;
     background-color: rgb(240, 238, 238);
     text-decoration: none;
     color: black;
-    border: solid 1px black;
+    border: solid 1px rgba(0, 0, 0, 0.13);
     padding: 1% 1%;
     margin-right: 58%;
     font-weight: 600;
+    display: block;
+    text-align: center;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    width: 95.5%;
 }
 .blog_entry .comments span {
     background-color: black;
     color: white;
     padding: 5px 10px;
     border-radius: 100%;
-    margin-left: 10%;
+    margin-left: 1%;
 } 
 
 /* *****MY NAME***** */
@@ -302,7 +312,7 @@ line-height: 1.5rem;
     color: white;
     margin: 2% 0.5%;
     padding: 1% 1%;
-    width: 5%;
+    width: 8%;
 }
 .tags_gris {
     text-decoration: none;
@@ -312,7 +322,7 @@ line-height: 1.5rem;
     color: black;
     margin: 2% 0.5%;
     padding: 1% 1%;
-    width: 5%;
+    width: 8%;
 }
 
 
